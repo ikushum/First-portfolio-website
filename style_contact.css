@@ -1,0 +1,319 @@
+#container{
+	width:1240px;
+}
+
+#content_contact{
+	margin-top:30px;
+	width:1240px;
+	height:2200px;
+}
+
+img.contact_form{
+	float:right;
+}
+
+#contact_form{
+	width:1240px;
+	height:500px;
+	background-color:#EAF3F8;
+	border-radius:55px;
+	margin:0px auto;
+	margin-top:0px;
+	background-image:url('img/form.jpg');
+
+}
+
+h1.contact{
+	color:#076CD7;
+	font-size:50px;
+	margin-bottom:0px;
+	margin-left: 200px;
+}
+
+h2.contact{
+	color:#076CD7;
+	font-size:30px;
+	margin-left:80px;
+	margin-top:-20px;
+	width:550px;
+}
+
+
+form{
+	width:400px;
+	float:right;	
+	margin-right:150px;
+	margin-top:-320px;
+}
+
+h2.form{
+	color:#076CD7;
+	margin:20px;
+	margin-right:30px;
+	margin-bottom:5px;
+	font-size:20px;
+	display:inline;
+
+}
+
+input.text{
+	width:400px;
+	height:35px;
+	border-radius:15px;
+	padding:10px;
+	font-size:20px;	
+	border:2px solid #076CD7;
+	background-color:#F9F9F9;
+	margin-bottom:20px;
+	color:#0867CB;
+}
+
+input.text:focus{
+	outline:none;
+}
+
+textarea{
+	width:400px;
+	height:100px;
+	border-radius:15px;
+	border:2px solid #076CD7;
+	font-size:20px;	
+	padding:10px;
+	background-color:#F9F9F9;
+}
+
+textarea:focus{
+		outline:none;
+}
+
+input.submit{
+	padding:5px 15px;
+	margin-top:20px;
+	font-size:20px;
+	border:2px solid #4A8ECB;
+	border-radius:15px;
+	background-color:#5087D9;
+	font-weight:bold;
+	color:white;
+}
+
+input.submit:hover{
+	cursor:pointer;
+   color:#4A8ECB;
+   background-color:white;
+}
+
+
+#contact_media{
+	margin-top:50px;
+	border-radius:55px;
+	background-color:#FAFAFA;
+	height:1000px;
+	padding-bottom:70px;
+	border:2px dotted #E5DDDD;
+	border-bottom:none;
+}
+
+h2.contact_media{
+	color:#4A8ECB;
+	font-family:forte;
+	text-align:center;
+	font-size:65px;
+}
+
+
+.findMe{
+	margin:0px auto;
+	margin-bottom:40px;
+	width:940px;
+	height:220px;
+	
+}
+
+.media{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.media:hover{
+	margin:0px;
+	width:940px;
+	height:220px;
+	border: 4px dashed white;
+	border-radius:64px;
+}
+
+#alert{
+	display:none;
+	position:fixed;
+	left:30%;
+	background-color:#F2F2B0;
+	PADDING:10px;
+	border:1px solid #706A6A;
+	border-top:none;
+	border-radius:10px;
+}
+
+h2.alert{
+	color:#706A6A;
+	margin:0px;
+	padding:0px;	
+}
+
+
+
+
+
+/*------------CSS codes for Responsive site-----------*/
+
+
+@media screen and (max-width: 480px) {
+	
+#container{
+	font-family:helvetica;
+	width:95%;
+	margin:0px auto;
+	overflow:hidden;
+	height:auto;
+}
+
+#content_contact{
+	width:100%;
+	height:auto;
+}
+
+img.contact_form{
+	float:right;
+}
+
+#contact_form{
+	width:100%;
+	height:auto;
+	background-color:white;
+	border-radius:0px;
+	background-image:none;
+	margin-top:-30px;
+	padding-bottom:70px;
+	border-bottom:2px solid #DAE0E3;
+
+}
+ 
+h1.contact{
+	display:none;
+	width:80%;
+	font-size:25px;
+	margin-bottom:0px;
+	margin-left:30px;
+	margin-top:-0px;
+}
+
+h2.contact{
+	display:none;
+}
+
+form{
+	width:100%;
+	float:none;	
+	margin-right:0px;
+	margin-top:-20px;
+	padding-left:3%;
+}
+
+h2.form{
+	color:#076CD7;
+	margin:20px;
+	margin-right:30px;
+	margin-bottom:0px;
+	font-size:17px;
+	display:block;
+}
+
+input.text{
+	width:95%;
+	height:auto;
+	padding:2px;
+	font-size:17px;	
+	padding-left:10px;
+    border:1px solid #076CD7;
+	border-radius:5px;
+	background-color:#F9FAFB;
+}
+
+textarea{
+	width:95%;
+	height:100px;
+	border:1px solid #076CD7;
+	border-radius:5px;
+	background-color:#F9FAFB;
+}
+
+input.submit{
+	font-size:17px;
+	padding:7px 15px;
+	border-radius:10px;
+	background-color:#4A8ECB;
+	font-weight:bold;
+}
+
+input.submit:hover{
+color:#4A8ECB;
+background-color:white;
+}
+
+#contact_media{
+	width:100%;
+	margin-top:0px;
+	border-radius:0px;
+	height:auto;
+	padding-bottom:70px;
+	padding-top:20px;
+	border:none;
+	background-color:white;
+	border-top:3px solid #DAE0E3;
+}
+
+h2.contact_media{
+	font-family:helvetica;
+	font-size:25px;
+}
+
+
+.findMe{
+	margin-bottom:15px;
+	width:95%;
+	height:auto;
+}
+
+.media{
+	width:100%;
+	margin-left:0px;
+	margin-top:0px;
+	
+}
+
+.media:hover{
+	margin:0px;
+	width:100%;
+	height:auto;
+	border:none;
+	border-radius:0px;
+}
+
+#alert{
+	display:none;
+	position:fixed;
+	top:45px;
+	left:0%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+

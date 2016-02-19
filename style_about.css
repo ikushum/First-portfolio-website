@@ -1,0 +1,245 @@
+img.about_photo{
+	float:right;
+}
+
+#content_about{
+	height:2440px;
+	width:1240px;
+}
+
+#about1{
+	border-radius:55px;
+	margin-top:-10px;
+	background-color:#B4DAEA;
+	background-image:url('img/about1.jpg');
+	width:1240px;
+	height:500px;
+	margin-top:20px;
+}
+
+#about1 h1.aboutpage{
+	font-family:helvetica,helvetica;
+	font-size:100px;
+	padding:50px;
+	color:#2069BC;
+	display:table;
+	margin:0px auto;
+}
+
+#about1 p.about1{
+	margin-top:0px;
+	font-family:helvetica,helvetica;
+	color:#2069BC;
+	font-size:31px;
+	margin-left:180px;
+	margin-right:180px;
+	text-align:center;
+}
+
+#about2{
+	margin-top:100px;
+	height:300px;
+	width:1240px;
+}
+
+#about2 h1.aboutpage{
+	font-family:helvetica,helvetica;
+	font-size:65px;
+	padding:50px;
+	color:#4A8ECB;
+	display:table;
+	margin:0px auto;
+	margin-top:-80px;
+}
+
+
+
+p#skill{
+	margin-top:-25px;
+	font-family:helvetica;
+	font-size:28px;
+	text-align:center;
+	display:inline-block;
+	margin-right:80px;
+}
+
+#skills{
+	margin-left:350px;
+}
+
+span.skill{
+	font-family:helvetica,Trebuchet MS;
+	-webkit-text-stroke:0.1px black;
+	color:#254772;
+	font-size:35px;
+}
+
+#about3{
+	width:900px;
+	margin:0px auto;
+	padding-top:30px;
+	padding-bottom:40px;
+	border-top:2px solid #DAE0E3;
+	border-bottom:2px solid #DAE0E3;
+	margin-top:100px;
+}
+
+h2.about3{
+	font-family:helvetica;
+	color:#4A8ECB;
+	text-align:center;
+	font-size:65px;
+}
+
+h4.personal_stuffs{
+	width:850px;
+	font-family:helvetica,Trebuchet MS;
+	-webkit-text-stroke:0.1px black;
+	color:#6A6C6E;	
+	text-align:center;
+	font-weight: normal;
+	font-size:25px;
+}
+
+img.personal{
+	width:200px;
+	height:200px;
+	margin:5px;
+}
+    
+.findMe{
+	margin:0px auto;
+	margin-bottom:40px;
+	width:940px;
+	height:220px;
+	
+}
+
+.media{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.media:hover{
+	margin:0px;
+	width:940px;
+	height:220px;
+	border: 4px dashed black;
+	border-radius:64px;
+}
+
+
+
+
+/*------------CSS codes for Responsive site-----------*/
+
+
+@media screen and (max-width: 480px) {
+
+#content_about{
+	width:95%;
+	height:auto;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#about1{
+	margin-top:-20px;
+	width:100%;
+	height:auto;
+	background-image:none;
+	background-color:white;
+	padding-bottom:50px;
+	border-radius:0px;
+	border-bottom:2px solid #DAE0E3;
+}
+
+#about1 h1.aboutpage{
+	width:70%;
+	color:#4A8ECB;
+	font-size:25px;	
+	padding-bottom:10px;
+}
+
+
+#about1 p.about1{
+	color:#6A6C6E;
+	font-size:17px;
+	width:95%;
+	margin:0px auto;
+}
+
+#about2{
+	margin-top:100px;
+	width:100%;
+	height:auto;
+}
+
+#about2 h1.aboutpage{
+	width:100%;
+	margin-bottom:20px;
+	padding:0px;
+	font-size:25px;
+}
+
+p#skill{
+	width:100%;
+	font-family:helvetica;
+	font-size:17px;
+	text-align:center;
+	display:inline-block;
+	margin-bottom:50px;
+	
+}
+
+#skills{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	padding:0px;
+}
+
+span.skill{
+	color:#254772;
+	font-size:20px;
+}
+
+
+#about3{
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	padding-bottom:40px;
+	border-top:2px solid #DAE0E3;
+	border-bottom:2px solid #DAE0E3;
+}
+
+h2.about3{
+	font-size:25px;
+	font-weight:bold;
+}
+
+h4.personal_stuffs{
+	width:95%;
+	height:auto;
+	margin:0px auto;
+	margin-top:30px;
+	font-size:17px;
+}
+
+#image_holder{
+	width:90%;
+	margin:0px auto;
+}
+
+img.personal{
+	width:47%;
+	height:auto;
+	margin:1%;
+}
+
+
+}
+
+
+
