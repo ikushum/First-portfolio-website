@@ -49,24 +49,57 @@ img.close:hover{
 
 #items{
 	width:1240px;
-	background-color:#98C8EE;
 	border-radius:55px;
 	padding-bottom:30px;
+	background-color:#CAE9E9;
+	border:3px solid #4289C9;	
+	margin-top:30px;
 }
+
+.game_description{
+	display:inline-block;
+	overflow:hidden;
+	width:350px;
+	height:350px;
+	margin-left:20px;
+	margin-bottom:20px;
+	padding:0px 20px;
+}
+
+h2.game{
+	font-size:30px;
+	color:4A8ECB;
+}
+
+h3{
+	color:#6A6C6E;	
+}
+
+a.download{
+	font-size:25px;
+	background-color:4A8ECB;
+	color:white;
+	padding:10px 25px;
+	border-radius:20px;
+	margin-left:-15px;
+}
+
+a.download:hover{
+	background-color:246CAD;
+}
+
+
 
 h2.gallery_heading{
 	width:1220px;
-	background-color:#076CD7;
 	display:block;
 	border-top-right-radius:55px;
 	border-top-left-radius:55px;
-	text-align:center;
-	font-size:30px;
-	padding:10px;
-	color:white;
-    text-shadow:0 0 15px white;
 	margin-bottom:50px;
-	background-image:url('img/text_bg.jpg');
+	font-family:helvetica;
+	color:#4289C9;
+	text-align:center;
+	font-size:65px;
 }
 
 .gallery_item{
@@ -74,10 +107,10 @@ h2.gallery_heading{
 	background-image:url('img/loading.gif');
 	background-repeat:no-repeat;
 	background-position:center;
+	border-radius:15px;
 	display:inline-block;
 	width:350px;
 	height:350px;
-	border:1px solid black;
 	overflow:hidden;
 	margin-right:20px;
 	margin-bottom:20px;
@@ -123,17 +156,19 @@ img.gallery_items{
 #items{
 	width:100%;
 	height:auto;
-	background-color:white;
-	padding:0px;
+	background-color:#CAE9E9;
+	border:1px solid #4289C9;
+	border-radius:15px;
+	padding:10px 0px;
 	margin-bottom:30px;
 	margin-top:20px;
+
 }
 
 h2.gallery_heading{
 	font-size:25px;
 	width:100%;	
 	margin:0px;	
-	background-color:white;
 	border-top-right-radius:0px;
 	border-top-left-radius:0px;
 	color:#0D72C4;
@@ -146,12 +181,37 @@ h2.gallery_heading{
 .gallery_item{
 	width:31%;
 	height:auto;
-	border:1px solid black;
 	overflow:hidden;
 	margin:0px auto;
 	margin-bottom:1px;
-	
 }
+
+#game{
+	margin-left:30px;
+}
+
+.game_description{
+	height:auto;
+	padding-bottom:10px;
+}
+
+h2.game{
+	font-size:20px;
+}
+
+h3{
+    font-size:15px;	
+}
+
+a.download{
+	font-size:25px;
+	background-color:4A8ECB;
+	color:white;
+	padding:10px 25px;
+	border-radius:20px;
+	margin-left:-15px;
+}
+
 
 .gallery_items:hover{
 	-webkit-filter:  brightness(70%);

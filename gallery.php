@@ -65,6 +65,27 @@
 <div id="content_gallery">
 
 <div id="items">
+<h2 class="gallery_heading"> Game Development </h2>
+<div class="image_wrapper">
+<div class="gallery_item" id="game"><img class="gallery_items" src="img/gallery_game/1.jpg"></div>
+
+<div class="game_description">
+<h2 class="game"> Ball Game </h2> 
+<h3> Works on : Windows only </h3>
+<h3> Developed on : Python 2.7 and Pygame</h3>
+<h3> Type : Highscore game </h3>
+<h3> File size : 6.8 MB </h3><br>
+<a class="download" href=""> DOWNLOAD </a>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+<div id="items">
 <h2 class="gallery_heading"> Graphic Designs </h2>
 <div class="image_wrapper">
 <div class="gallery_item"><img id="graphic1" class="gallery_items" src="img/gallery_home1/1.jpg"></div>
@@ -73,8 +94,6 @@
 <div class="gallery_item"><img id="graphic4" class="gallery_items" src="img/gallery_home1/4.jpg"></div>
 <div class="gallery_item"><img id="graphic5" class="gallery_items" src="img/gallery_home1/5.jpeg"></div>
 <div class="gallery_item"><img id="graphic6" class="gallery_items" src="img/gallery_home1/6.jpg"></div>
-
-
 </div>
 </div>
 
